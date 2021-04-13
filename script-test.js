@@ -9,18 +9,21 @@
     console.log(maVar);
 })();
 */
-
-/*Var num1 =1;
-var num2 = 2;
+var num1;
+var num2; 
 var res;
-(fonction(){
+function division (num1,num2)
+try { 
+    
     res = num1/num2;
     return res;
+    }
+ catch(error)
+ {console.log('erruer')};
+ console.log(division(4,0));
+   
     console.log(res)
-}
 
-)
-*/
 
 /*function reverseTab(tab) {
     let res = [];
@@ -42,9 +45,9 @@ var res;
   console.log(getLastElem(["Alex", "Bob", "Emily"])); 
   */
 
-  tab = [1,2,3,4]
+  /*tab = [1,2,3,4]
   for(i=0; i< tab.length; i ++){
   console.log(tab[i]);
   }
-  
+  */
   
